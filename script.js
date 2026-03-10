@@ -14,11 +14,9 @@ menu.classList.toggle("active")
 const tentang = document.querySelector(".tentang")
 
 const images = [
-
-"img/pengadilan-negri-jatim.jpg",
-"img/background-2.jpg",
-"img/background-3.jpg"
-
+"https://username.github.io/kantor-advokat/img/pengadilan-negri-jatim.jpg",
+"https://username.github.io/kantor-advokat/img/background-2.jpg",
+"https://username.github.io/kantor-advokat/img/background-3.jpg"
 ]
 
 let i = 0
