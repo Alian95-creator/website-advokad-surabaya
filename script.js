@@ -2,12 +2,8 @@ const hamburger = document.getElementById("hamburger")
 const menu = document.getElementById("menu")
 
 hamburger.addEventListener("click", () => {
-
 menu.classList.toggle("active")
-
 })
-
-
 
 /* SLIDER BACKGROUND TENTANG */
 
@@ -36,3 +32,27 @@ i = 0
 slideBg()
 
 setInterval(slideBg,4000)
+
+/* LAYANAN CLICK DETAIL */
+
+const layananCards = document.querySelectorAll(".layanan .card");
+
+layananCards.forEach(card => {
+
+card.addEventListener("click", () => {
+
+if(card.classList.contains("active")){
+
+card.classList.remove("active")
+
+}else{
+
+layananCards.forEach(c => c.classList.remove("active"))
+
+card.classList.add("active")
+
+}
+
+})
+
+});
