@@ -216,53 +216,37 @@ object-fit:cover;
 /* TESTIMONI */
 
 .testimoni{
-
 padding:80px 20px;
-
-background:#eef2f8;
-
 text-align:center;
-
-overflow:hidden;
-
+background:#f9f9f9;
 }
 
 .testimoni h2{
-
 margin-bottom:40px;
-
 }
 
 .testimoni-slider{
-
 display:flex;
-
 gap:20px;
-
-animation:scrollTesti 35s linear infinite;
-
+overflow-x:auto;
+scroll-snap-type:x mandatory;
+padding-bottom:20px;
 }
 
-.testimoni-slider img{
+.testimoni-slider::-webkit-scrollbar{
+display:none;
+}
 
-width:250px;
+.testi-card{
+flex:0 0 auto;
+width:280px;
+scroll-snap-align:center;
+}
 
+.testi-card img{
+width:100%;
 border-radius:10px;
-
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
-
-}
-
-@keyframes scrollTesti{
-
-0%{
-transform:translateX(0);
-}
-
-100%{
-transform:translateX(-50%);
-}
-
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
 
 /* KANTOR */
