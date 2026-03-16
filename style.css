@@ -199,6 +199,17 @@ gap:20px;
 overflow-x:auto;
 }
 
+.layanan-detail{
+display:none;
+margin-top:10px;
+font-size:14px;
+color:#555;
+}
+
+.card.active .layanan-detail{
+display:block;
+}
+
 .card{
 min-width:250px;
 background:white;
@@ -222,7 +233,9 @@ background:#f9f9f9;
 }
 
 .testimoni h2{
-margin-bottom:40px;
+margin-top:20px;
+margin-bottom:50px;
+font-size:32px; 
 }
 
 .testimoni-slider{
