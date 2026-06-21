@@ -108,7 +108,7 @@ color:white;
 
 .tentang{
 
-height:90vh;
+min-height:100vh;
 
 background-image:url("img/pengadilan-negri-jatim.JPG");
 
@@ -131,6 +131,8 @@ text-align:center;
 color:white;
 
 transition:1s;
+
+padding:100px 20px 60px;
 
 }
 
